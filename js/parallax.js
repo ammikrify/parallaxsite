@@ -6,7 +6,9 @@
          if(half<-171){
          	half = -171;
          }
-     $('.navbar1').css('background-position-y',half);
+         var parallax = document.getElementById("parallax");
+   
+     parallax.style.backgroundPosition = "0px " + (half) + "px";
      if(pos>-342){
      
         $('.navbar1').css('background-image','none');
